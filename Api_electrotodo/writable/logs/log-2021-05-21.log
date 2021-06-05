@@ -1,0 +1,7 @@
+CRITICAL - 2021-05-21 22:31:35 --> Trying to get property '' of non-object
+#0 C:\laragon\www\Api_electro\app\Controllers\RestLogin.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\laragon\\www\\...', 39, Array)
+#1 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\RestLogin->show('23049420')
+#2 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestLogin))
+#3 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\Api_electro\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

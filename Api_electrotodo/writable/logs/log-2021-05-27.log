@@ -1,0 +1,34 @@
+CRITICAL - 2021-05-27 12:05:39 --> Argument 2 passed to dot_array_search() must be of the type array, null given, called in C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php on line 360
+#0 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php(360): dot_array_search('Cedula', NULL)
+#1 C:\laragon\www\Api_electro\app\Controllers\RestLogin.php(51): CodeIgniter\HTTP\IncomingRequest->getJsonVar('Cedula')
+#2 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\RestLogin->create()
+#3 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestLogin))
+#4 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Api_electro\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 12:20:22 --> password_hash(): Unknown password hashing algorithm: 1209
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'C:\\laragon\\www\\...', 110, Array)
+#1 C:\laragon\www\Api_electro\app\Controllers\RestCliente.php(110): password_hash('123456789', 1209)
+#2 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\RestCliente->update('22')
+#3 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestCliente))
+#4 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Api_electro\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 12:20:47 --> password_hash(): Unknown password hashing algorithm: 1209
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'C:\\laragon\\www\\...', 110, Array)
+#1 C:\laragon\www\Api_electro\app\Controllers\RestCliente.php(110): password_hash('231232432', 1209)
+#2 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\RestCliente->update('22')
+#3 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RestCliente))
+#4 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\Api_electro\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-27 12:51:46 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\Api_electro\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\Api_electro\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
