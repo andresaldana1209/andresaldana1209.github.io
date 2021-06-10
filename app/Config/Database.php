@@ -32,9 +32,9 @@ class Database extends Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => 'localhost',
-		'username' => 'root',
-		'password' => '',
+		'hostname' => 'http://db4free.net/',
+		'username' => 'root1209',
+		'password' => 'Alda2001',
 		'database' => 'electro_jjal',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
