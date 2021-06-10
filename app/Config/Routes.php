@@ -19,7 +19,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
  */
 $routes->setDefaultNamespace('App\Controllers');
 $routes->setDefaultController('RestCliente');
-$routes->setDefaultMethod('index');
+$routes->setDefaultMethod('W_Cliente');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 $routes->setAutoRoute(true);
